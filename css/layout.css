@@ -180,3 +180,78 @@ header > .con {
 }
 /*  상자가 릴레이티브
 카드가 앱솔루트 로 겹쳐놨다가 오버하면 올라오게*/
+
+/* 세번째 섹션*/
+.sec3 {
+  width: 100%;
+  height: auto;
+  padding: 100px;
+  background-color: antiquewhite;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.text_box2 {
+  text-align: center;
+  margin: 0 auto;
+  gap: 22px;
+}
+.text_box2 > h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.text_box2 > p {
+  font-size: 20px;
+}
+/* 검색박스 */
+.qbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #555;
+  width: 815px;
+  height: 74px;
+  border-radius: 50px;
+  margin: 22px auto;
+  gap: 70px;
+  box-sizing: border-box;
+  padding: 15px 0;
+}
+.qbox > button {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+}
+.qbox img {
+  max-width: 100%;
+}
+.qbox label {
+  display: block;
+  width: 80%;
+}
+.qbox input {
+  width: 100%;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 20px;
+}
+
+/*  */
+.card_wrap2 {
+  background-color: tomato;
+  text-align: center;
+  margin-top: 100px;
+}
+.card_wrap2 h2 {
+  font-size: 24px;
+}
+.card_2 {
+  display: flex;
+  gap: 50px;
+}
