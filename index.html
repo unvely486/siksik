@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>식식풀이</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./css/layout.css" />
   </head>
   <body>
@@ -18,9 +22,9 @@
         <nav id="gnb">
           <ul>
             <li><a href="#">큐레이팅</a></li>
-            <li><a href="#">식물일기</a></li>
             <li><a href="#">식물도감</a></li>
-            <li><a href="#">매거진</a></li>
+            <li><a href="#">마켓</a></li>
+            <li><a href="#">집들이</a></li>
             <li><a href="#">공지사항</a></li>
           </ul>
         </nav>
@@ -36,7 +40,40 @@
     </header>
     <!-- 바디 -->
     <main>
-      <section class="main_visual">
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="bg_slide1">
+              <img src="./img/bg1.jpg" alt="배경" />
+            </div>
+            <div class="swiper_text1">
+              <p>
+                식물에 관한 모든 불편함을 해결하고,<br />
+                독자적인 큐레이팅 서비스를 제안하는<br />
+                <span>‘식식풀이’</span>
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/bg2.jpg" alt="배경" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/bg3.jpg" alt="배경" />
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev">
+          <!-- 아이콘 이미지로 넣으려면 여기 넣기 -->
+        </div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <!-- <section class="main_visual"> 
         <div class="main_title">
           <p>
             식물에 관한 모든 불편함을 해결하고,<br />
@@ -47,7 +84,7 @@
         <div class="main_img">
           <img src="./img/bg3.jpg" alt="배경" />
         </div>
-      </section>
+      </section>-->
       <!-- 두번째 섹션 -->
       <section class="sec2">
         <div class="con">
@@ -136,23 +173,108 @@
         <div class="card_wrap2">
           <h2>유저들이 많이 찾아보는 식물</h2>
           <div class="card_2">
-            <div class="card2-1">
-              <img src="./img/sec3_1.png" alt="알보몬스테라" />
+            <div class="img_card">
+              <a href="#">
+                <p>알보 몬스테라</p>
+              </a>
             </div>
-            <div class="card2-2">
-              <img src="./img/sec3_2.png" alt="무늬보스턴고사리" />
+            <div class="img_card">
+              <a href="#">
+                <p>보스턴 고사리</p>
+              </a>
             </div>
-            <div class="card2-3">
-              <img src="./img/sec3_3.png" alt="마요이" />
+            <div class="img_card">
+              <a href="#">
+                <p>필로덴드론 마요이</p>
+              </a>
             </div>
-            <div class="card2-4">
-              <img src="./img/sec3_4.png" alt="알로카시아 프라이덱" />
+            <div class="img_card">
+              <a href="#">
+                <p>알로카시아 프라이덱</p>
+              </a>
             </div>
+          </div>
+        </div>
+      </section>
+      <!-- 네번째 섹션 -->
+      <section class="sec4">
+        <div class="zip_wrapper">
+          <div class="zip">
+            <h2>식식프렌즈 집들이</h2>
+            <div>
+              <img src="./img/zip.png" alt="집들이" />
+            </div>
+          </div>
+          <div class="item">
+            <h2>집들이 속 아이템</h2>
+            <div></div>
+          </div>
+        </div>
+      </section>
+      <!-- 다섯번째 섹션 -->
+      <section class="sec5">
+        <h2>Market</h2>
+        <h4>신상품</h4>
+        <div class="newbox_wrap">
+          <div class="newbox">
+            <div>
+              <img src="./img/sec5-1.png" alt="블루스타펀 고사리" />
+            </div>
+            <p>블루스타펀 고사리</p>
+          </div>
+          <div class="newbox">
+            <div>
+              <img src="./img/sec5-2.png" alt="선인장" />
+            </div>
+            <p>선인장</p>
+          </div>
+          <div class="newbox">
+            <div>
+              <img src="./img/sec5-3.png" alt="마티아스 토분" />
+            </div>
+            <p>마티아스 토분</p>
+          </div>
+          <div class="newbox">
+            <div>
+              <img src="./img/sec5-4.png" alt="다람쥐 물조리개" />
+            </div>
+            <p>다람쥐 물조리개</p>
+          </div>
+        </div>
+        <h4>베스트 상품</h4>
+        <div class="bestbox_wrap">
+          <div class="bestbox">
+            <div>
+              <img src="./img/sec5-6.png" alt="선인장" />
+            </div>
+            <p>코노피튬</p>
+          </div>
+          <div class="bestbox">
+            <div>
+              <img src="./img/sec5-7.png" alt="선인장" />
+            </div>
+            <p>코노피튬</p>
+          </div>
+          <div class="bestbox">
+            <div>
+              <img src="./img/sec5-8.png" alt="선인장" />
+            </div>
+            <p>코노피튬</p>
+          </div>
+          <div class="bestbox">
+            <div>
+              <img src="./img/sec5-9.png" alt="선인장" />
+            </div>
+            <p>코노피튬</p>
           </div>
         </div>
       </section>
     </main>
     <!-- 푸터 -->
     <footer></footer>
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script src="./js/index.js"></script>
   </body>
 </html>
