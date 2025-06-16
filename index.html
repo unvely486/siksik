@@ -9,6 +9,10 @@
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="./css/layout.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/xeicon/2/xeicon.min.css"
+    />
   </head>
   <body>
     <!-- 헤더 -->
@@ -60,8 +64,22 @@
           <div class="swiper-slide">
             <img src="./img/bg2.jpg" alt="배경" />
           </div>
+          <div class="swiper_text1">
+              <p>
+                식물에 관한 모든 불편함을 해결하고,<br />
+                독자적인 큐레이팅 서비스를 제안하는<br />
+                <span>‘식식풀이’</span>
+              </p>
+            </div>
           <div class="swiper-slide">
             <img src="./img/bg3.jpg" alt="배경" />
+            <div class="swiper_text1">
+              <p>
+                식물에 관한 모든 불편함을 해결하고,<br />
+                독자적인 큐레이팅 서비스를 제안하는<br />
+                <span>‘식식풀이’</span>
+              </p>
+            </div>
           </div>
         </div>
         <!-- If we need pagination -->
@@ -89,7 +107,13 @@
       <section class="sec2">
         <div class="con">
           <div class="text_box">
-            <h2>독자적 큐레이팅 서비스</h2>
+            <h2>
+              <span class="left_arrow">< </span>독자적 큐레이팅 서비스<span
+                class="right_arrow"
+              >
+                ></span
+              >
+            </h2>
             <p>
               각기 다른 환경과 조건<br />
               취향에 따라 맞춤 큐레이팅을 받아보세요!
@@ -151,7 +175,11 @@
       <!-- 세번째 섹션 -->
       <section class="sec3">
         <div class="text_box2">
-          <h2>식물도감</h2>
+          <h2>
+            <span class="left_arrow">< </span>식물도감<span class="right_arrow">
+              ></span
+            >
+          </h2>
           <p>
             식물에 관한 모든것! <br />
             내가 찾는 식물부터 키우는 방법까지 한번에 찾아볼 수 있는 식물도감
@@ -174,10 +202,13 @@
           <h2>유저들이 많이 찾아보는 식물</h2>
           <div class="card_2">
             <div class="img_card">
+              <div class="front"></div>
               <a href="#">
                 <p>알보 몬스테라</p>
               </a>
+              <div class="back"></div>
             </div>
+
             <div class="img_card">
               <a href="#">
                 <p>보스턴 고사리</p>
@@ -198,6 +229,12 @@
       </section>
       <!-- 네번째 섹션 -->
       <section class="sec4">
+        <div class="sec4_text">
+        <h2 class="sec4_h2">
+          <span class="left_arrow"> < </span>  &nbsp;식집사의 정원  &nbsp;<span class="right_arrow"> > </span></h2>
+        <p>다른 식식풀이 유저의 식물존을 구경하고,<br>
+           연관 상품까지 둘러볼 수 있는 '식집사의 정원'</p>
+           </div>
         <div class="zip_wrapper">
           <div class="zip">
             <h2>식식프렌즈 집들이</h2>
@@ -211,70 +248,150 @@
           </div>
         </div>
       </section>
-      <!-- 다섯번째 섹션 -->
+      <!-- 다섯번째 섹션 -->      
+
+<div class="animated-title">
+  <div class="track">
+    <div class="content">&nbsp;&nbsp;&nbsp;✨아프리카 식물 잔지바르 단독 입고&nbsp;&nbsp;&nbsp;📢초특가 세일중&nbsp;&nbsp;&nbsp;✨아프리카 식물 잔지바르 단독 입고&nbsp;&nbsp;&nbsp;📢초특가 세일중&nbsp;&nbsp;&nbsp;✨아프리카 식물 잔지바르 단독 입고&nbsp;&nbsp;&nbsp;</div>
+  </div>
+</div>
+
       <section class="sec5">
-        <h2>Market</h2>
-        <h4>신상품</h4>
+        <div class="top_text">
+        <h2>
+          <span class="left_arrow"><</span>Market<span class="right_arrow">></span
+          >
+          </div>
+        </h2>
+        <h4>신상품 <span class="more_1"><i class="xi-plus"></i> more</span></h4>
         <div class="newbox_wrap">
           <div class="newbox">
             <div>
               <img src="./img/sec5-1.png" alt="블루스타펀 고사리" />
             </div>
-            <p>블루스타펀 고사리</p>
+            <p>
+              블루스타펀 고사리 <br />
+              <span>6,000원</span>
+            </p>
           </div>
           <div class="newbox">
             <div>
               <img src="./img/sec5-2.png" alt="선인장" />
             </div>
-            <p>선인장</p>
+            <p>
+              선인장<br />
+              <span>3,000원</span>
+            </p>
           </div>
           <div class="newbox">
             <div>
               <img src="./img/sec5-3.png" alt="마티아스 토분" />
             </div>
-            <p>마티아스 토분</p>
+            <p>
+              마티아스 토분
+              <br />
+              <span>20,000원</span>
+            </p>
           </div>
           <div class="newbox">
             <div>
               <img src="./img/sec5-4.png" alt="다람쥐 물조리개" />
             </div>
-            <p>다람쥐 물조리개</p>
+            <p>
+              다람쥐 물조리개<br />
+              <span>16,000원</span>
+            </p>
           </div>
         </div>
-        <h4>베스트 상품</h4>
+        <h4>베스트 상품<span class="more_2"> <i class="xi-plus"></i>  more</span></h4>
         <div class="bestbox_wrap">
           <div class="bestbox">
             <div>
               <img src="./img/sec5-6.png" alt="선인장" />
             </div>
-            <p>코노피튬</p>
+            <p>
+              코노피튬
+              <br />
+              <span>8,000원</span>
+            </p>
           </div>
           <div class="bestbox">
             <div>
               <img src="./img/sec5-7.png" alt="선인장" />
             </div>
-            <p>코노피튬</p>
+            <p>
+              바크 1kg<br />
+              <span>10,000원</span>
+            </p>
           </div>
           <div class="bestbox">
             <div>
               <img src="./img/sec5-8.png" alt="선인장" />
             </div>
-            <p>코노피튬</p>
+            <p>
+              아스파라거스 미리오클라두스<br />
+              <span>9,000원</span>
+            </p>
           </div>
           <div class="bestbox">
             <div>
               <img src="./img/sec5-9.png" alt="선인장" />
             </div>
-            <p>코노피튬</p>
+            <p>
+              분갈이 트레이 <br />
+              <span>6,000원</span>
+            </p>
           </div>
         </div>
       </section>
     </main>
     <!-- 푸터 -->
-    <footer></footer>
+    <footer>
+      <div class="footer_wrap">
+      <div class="footer_logo">
+        <div>
+<a href="/"><img src="./img/logo.png" alt="푸터로고"></a>
+        </div>
+      </div>
+      <div class="fbox_wrap">
+      <div class="fbox_1">
+        <a href="#"> 브랜드 소개</a><span>  |</span> 
+        <a href="#">  개인정보처리방침</a>  <span>  |</span> 
+        <a href="#">  이용약관  </a> <span>  |</span> 
+        <a href="#">  고객센터</a> 
+      </div>
+      <div class="fbox_2">
+        상호명 : (주)식식풀이  |  대표이사 : 홍길동 <br>
+        주소 : 경기도 안양시 안양동 123-456   |  사업자등록번호 123-45-67891   |   통신판매업 신고 제2025-안양-0000
+      </div>
+      <div class="fbox_3">
+        Copyright &copy; siksik.All Rights Reserved
+      </div>
+      </div>
+      <div class="ficons">
+       <a href="#"><i class="xi-call xi-2x"></i></a>
+       <a href="#"><i class="xi-instagram xi-2x"></i></a>
+       <a href="#"><i class="xi-mail-o xi-2x"></i></a>
+       <a href="#"><i class="xi-youtube-play xi-2x"></i></a>
+      </div>
+      </div>
+    </footer>
     <!-- js -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- Initialize Swiper -->
     <script src="./js/index.js"></script>
+
+    <style>
+
+@keyframes siksik {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@media (hover: hover) and (min-width: 700px){
+.animated-title .content {-webkit-transform: translateY(calc(100% - 8rem)); transform: translateY(calc(100% - 8rem));}
+    }
+</style>
+    
   </body>
 </html>
+
